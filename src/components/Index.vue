@@ -1,15 +1,13 @@
 <template>
-  <navigation></navigation>
+  <index></index>
 </template>
 
 <script>
-  import Navigation from '@/components/Navigation';
-
+  import Index from '@/components/IndexTemplate';
   export default {
-    name: 'index',
+    name: 'home',
     components:{
-      Navigation
+      Index,
     }
   }
-
 </script>
