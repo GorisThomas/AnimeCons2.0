@@ -1,6 +1,7 @@
 var searchbar = $('#mySearch');
 var searchlist = $('#searchoptions');
-var json = data;
+var json = require('../search_content.json');
+
 
 $(function() {
   searchbar.keyup(checkKeyPress);
