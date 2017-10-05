@@ -3,9 +3,9 @@
 
     <navigation></navigation>
     <div class="text-center col-md-12 eventbody">
-      <EventCard></EventCard>
-      <EventCard></EventCard>
-      <EventCard></EventCard>
+      <ConventionCard :isEvent="true"></ConventionCard>
+      <ConventionCard :isEvent="false"></ConventionCard>
+      <ConventionCard :isEvent="true"></ConventionCard>
 
     </div>
     <foot></foot>
@@ -15,14 +15,14 @@
 
 <script>
   import Navigation from '@/components/Navigation';
-  import EventCard from '@/components/EventCard';
+  import ConventionCard from '@/components/ConventionCard';
   import Foot from '@/components/Footer';
 
   export default {
     name: 'index',
     components: {
       Navigation,
-      EventCard,
+      ConventionCard,
       Foot,
     }
   }
