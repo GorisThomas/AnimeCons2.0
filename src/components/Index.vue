@@ -1,13 +1,19 @@
 <template>
-  <index></index>
+  <div>
+    <navigation></navigation>
+    <foot></foot>
+  </div>
 </template>
 
 <script>
-  import Index from '@/components/IndexTemplate';
+  import Navigation from '@/components/Navigation';
+  import Foot from '@/components/Footer';
+
   export default {
-    name: 'home',
-    components:{
-      Index,
+    name: 'index',
+    components: {
+      Navigation,
+      Foot,
     }
   }
 </script>
