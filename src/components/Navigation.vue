@@ -11,26 +11,26 @@
       </button>
     </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Frontpage<span class="sr-only">(current)</span></a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organisations <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="organisations-location.html">Ordered by location</a></li>
-            <li><a href="organisations-alphabet.html">Ordered alphabetically</a></li>
-          </ul>
-        </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conventions<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href="conventions-location.html">Ordered by location</a></li>
-            <li><a href="conventions-date.html">Ordered by date</a></li>
-            <li><a href="conventions-alphabet.html">Ordered alphabetically</a></li>
-          </ul>
-        </li>
-        <li class=""><a href="map.html">Map<span class="sr-only">(current)</span></a></li>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><router-link to="/">Frontpage<span class="sr-only">(current)</span></router-link></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organisations <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><router-link to="/organisations-location">Ordered by location</router-link></li>
+              <li><router-link to="/organisations-alphabet">Ordered alphabetically</router-link></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conventions<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><router-link to="/conventions-location">Ordered by location</router-link></li>
+              <li><router-link to="/conventions-date">Ordered by date</router-link></li>
+              <li><router-link to="/conventions-alphabet">Ordered alphabetically</router-link></li>
+            </ul>
+          </li>
+          <li class=""><router-link to="/map">Map<span class="sr-only">(current)</span></router-link></li>
 
       </ul>
 

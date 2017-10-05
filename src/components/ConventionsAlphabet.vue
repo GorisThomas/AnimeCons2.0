@@ -3,10 +3,10 @@
 </template>
 
 <script>
-  import Navigation from '@/components/Navigation'
+  import Navigation from '@/components/Navigation';
 
   export default {
-    name: 'Map',
+    name: 'ConventionsAlphabet',
     components: {
       Navigation
     }
