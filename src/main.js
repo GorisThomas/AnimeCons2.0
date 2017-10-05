@@ -25,6 +25,7 @@ require('../node_modules/jquery-editable-select/dist/jquery-editable-select.min.
 require('./assets/javascript/search.js');
 require('./assets/javascript/map.js');
 require('./assets/javascript/styleselector.js');
+var data = JSON.parse(JSON.stringify(require('./assets/search_content.json')));
 
 //stylesheet
 require('./assets/css/main-bootstrap.css');

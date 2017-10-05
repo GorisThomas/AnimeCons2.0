@@ -2,14 +2,14 @@ import Vue from 'vue';
 import Router from 'vue-router';
 
 import Index from '@/components/Index';
-import Map from '@/components/Map';
+import Map from '@/components/pages/Map';
 
-import OrganisationsLocation from '@/components/OrganisationsLocation';
-import OrganisationsAlphabet from '@/components/OrganisationsAlphabet';
+import OrganisationsLocation from '@/components/pages/OrganisationsLocation';
+import OrganisationsAlphabet from '@/components/pages/OrganisationsAlphabet';
 
-import ConventionsLocation from '@/components/ConventionsLocation';
-import ConventionsAlphabet from '@/components/ConventionsAlphabet';
-import ConventionsDate from '@/components/ConventionsDate';
+import ConventionsLocation from '@/components/pages/ConventionsLocation';
+import ConventionsAlphabet from '@/components/pages/ConventionsAlphabet';
+import ConventionsDate from '@/components/pages/ConventionsDate';
 
 Vue.use(Router);
 
