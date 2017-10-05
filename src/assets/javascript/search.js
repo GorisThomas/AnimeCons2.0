@@ -1,7 +1,16 @@
-var searchbar = $('#mySearch');
-var searchlist = $('#searchoptions');
 var json = require('../search_content.json');
 
+//add all of the json data into the select list
+
+$('#searchselect').editableSelect();
+
+
+
+
+var searchbar = $('#searchselect').click(function(event){
+  checkKeyPress(event);
+});
+var searchlist = $('es-list');
 
 $(function() {
   searchbar.keyup(checkKeyPress);
@@ -11,9 +20,9 @@ $(function() {
 function checkKeyPress(event) {
   //notice the of the "mySearch" it is the id of the input
   if (event.keyCode == 13) {
-    loadResult(mySearch.value);
+    loadResult(searchselect.value);
   } else {
-    searchJSON(mySearch.value);
+    searchJSON(searchselect.value);
   }
 }
 
@@ -46,8 +55,13 @@ function removeList() {
 }
 
 function createList(result) {
+  console.log(searchlist);
   for (var i = 0; i < result.length; i++){
-    searchlist.append($('<li>').append(result[i].id));
+    var entry = document.createElement('li');
+    var item = result[i];
+    var textnode = document.createTextNode(item.id);
+    entry.appendChild(textnode);
+    $(searchlist).append(entry);
   }
 }
 

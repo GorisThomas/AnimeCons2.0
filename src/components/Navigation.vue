@@ -38,9 +38,10 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="navbar-form navbar-left">
           <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search">
+            <select id="searchselect">
+              <option data-tokens="ketchup mustard">search here</option>
+            </select>
           </div>
-          <button type="submit" class="btn btn-info">Search</button>
         </li>
       </ul>
     </div>

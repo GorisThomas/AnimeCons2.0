@@ -16,8 +16,10 @@ new Vue({
 
 // external files
 require('./assets/javascript/jquery-3.2.1.slim.min.js');
-require('./assets/bootstrap/js/bootstrap.min.js')
+require('./assets/bootstrap/js/bootstrap.min.js');
 require('./assets/bootstrap/css/bootstrap.min.css');
+require('../node_modules/jquery-editable-select/dist/jquery-editable-select.min.js');
+require('../node_modules/jquery-editable-select/dist/jquery-editable-select.min.css');
 
 //our own files
 require('./assets/javascript/search.js');
