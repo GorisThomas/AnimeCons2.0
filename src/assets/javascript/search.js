@@ -6,65 +6,6 @@ $('#searchselect').editableSelect();
 
 
 
-
-var searchbar = $('#searchselect').click(function(event){
-  checkKeyPress(event);
-});
-var searchlist = $('es-list');
-
-$(function() {
-  searchbar.keyup(checkKeyPress);
-});
-
-//check if keypress was an enter
-function checkKeyPress(event) {
-  //notice the of the "mySearch" it is the id of the input
-  if (event.keyCode == 13) {
-    loadResult(searchselect.value);
-  } else {
-    searchJSON(searchselect.value);
-  }
-}
-
-function loadResult(searchvalue) {
-  var regex = "/" + searchvalue + "/";
-  for( var item in Object.keys(jsonfile)) {
-    if (regex.test(item)) {
-      window.location.href = jsonfile[item];
-      return;
-    }
-  }
-}
-
-function searchJSON(searchvalue) {
-  var result = findKeys(searchvalue);
-  removeList();
-  if (searchvalue.length > 0) {
-    createList(result);
-  }
-}
-
-function findKeys(query) {
-  return json.conventions.filter(function(el) {
-    return el.id.toLowerCase().indexOf(query.toLowerCase()) > -1;
-  });
-}
-
-function removeList() {
-  searchlist.empty();
-}
-
-function createList(result) {
-  console.log(searchlist);
-  for (var i = 0; i < result.length; i++){
-    var entry = document.createElement('li');
-    var item = result[i];
-    var textnode = document.createTextNode(item.id);
-    entry.appendChild(textnode);
-    $(searchlist).append(entry);
-  }
-}
-
 /*var searchbar = document.getElementById('mySearch');
 var searchlist = document.getElementById("searchoptions");
 searchbar.onkeyup = checkKeyPress;

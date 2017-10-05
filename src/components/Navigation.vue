@@ -38,8 +38,9 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="navbar-form navbar-left">
           <div class="form-group">
+            <!-- This is made with https://github.com/indrimuska/jquery-editable-select -->
             <select id="searchselect">
-              <option data-tokens="ketchup mustard">search here</option>
+              <option v-for="item in JsonData.conventions">{{item.name}}</option>
             </select>
           </div>
         </li>
@@ -52,7 +53,16 @@
 </template>
 
 <script>
+
+import JsonData from '@/assets/search_content.json';
+
 export default {
-  name: 'navigation'
+  name: 'navigation',
+  data: function(){
+    return {
+      JsonData
+    };
+  }
+
 }
 </script>
