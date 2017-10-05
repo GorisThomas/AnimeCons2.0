@@ -23,6 +23,7 @@ require('./assets/bootstrap/css/bootstrap.min.css');
 require('./assets/javascript/search.js');
 require('./assets/javascript/map.js');
 require('./assets/javascript/styleselector.js');
+var data = JSON.parse(JSON.stringify(require('./assets/search_content.json')));
 
 //stylesheet
 require('./assets/css/main-bootstrap.css');
