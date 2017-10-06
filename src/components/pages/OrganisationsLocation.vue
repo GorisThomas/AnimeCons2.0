@@ -1,6 +1,6 @@
 <template>
   <div>
-    <navigation></navigation>
+    <navigation isOrganisation="true"></navigation>
     <div class="text-center col-md-12 eventbody">
       <h1>Organisations ordered by location</h1>
       <h2>Zealand</h2>
