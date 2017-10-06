@@ -3,8 +3,10 @@
 
     <navigation></navigation>
     <div class="text-center col-md-12 eventbody">
-      <ConventionCard v-for="item in JsonData.conventions" :name="item.name" :date="item.date" :location="item.location" :link="item.link" :description="item.description" :isEvent="true"></ConventionCard>
-
+      <ConventionCard v-for="item in JsonData.conventions" :name="item.name"
+      :date="item.date" :location="item.location" :link="item.link"
+      :description="item.description" :isEvent="true">
+      </ConventionCard>
     </div>
     <foot></foot>
 

@@ -1,20 +1,20 @@
 {
     "conventions": [{
-            "name": "genki",
+            "name": "b",
             "date": "01/01/2020",
             "location": "Denmark",
             "link": "http://someurl.com",
             "description": "Some Danish Anime convention"
         },
         {
-            "name": "genki",
+            "name": "c",
             "date": "01/01/2020",
             "location": "Denmark",
             "link": "http://someurl.com",
             "description": "Some Danish Anime convention"
         },
         {
-            "name": "jpopcon",
+            "name": "a",
             "date": "01/01/2025",
             "location": "Denmark",
             "link": "http://someotherurl.com",
