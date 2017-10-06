@@ -13,13 +13,13 @@
   <div class="row">
     <div class="col-md-8">
       <h4>general info</h4>
-      <p>Location: {{location}}</p>
-      <p>Link: <a href="#">{{link}}</a></p>
+      <p>Location: {{address}}, {{city}}, {{region}}</p>
+      <p>Link: <a v-bind:href="link">{{link}}</a></p>
       <p>Description: {{description}}</p>
       <input type="button" value="Read more" v-if="isEvent">
     </div>
     <div class="col-md-4">
-      <img class="img-responsive" src="../assets/images/placeholder.svg" alt="Some picture here">
+      <img  class="img-responsive" v-bind:src="img" alt="Some picture here">
     </div>
   </div>
 </article>
@@ -32,9 +32,12 @@ export default {
     'isEvent',
     'name',
     'date',
-    'location',
+    'address',
+    'city',
+    'region',
     'link',
-    'description'
+    'description',
+    'img'
   ]
 }
 </script>

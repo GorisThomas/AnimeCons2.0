@@ -1,24 +1,63 @@
 {
     "conventions": [{
-            "name": "genki",
+            "name": "Genki",
             "date": "01/01/2020",
-            "location": "Denmark",
-            "link": "http://someurl.com",
-            "description": "Some Danish Anime convention"
+            "address": "Farum Arena",
+            "city": "Copenhagen",
+            "region":"Zealand",
+            "link": "http://www.genki.dk/",
+            "img": "/#/src/assets/images/genki.png",
+            "description": "Genki is a Danish convention for anime, manga, and general pop and traditional culture from South-East Asia, with a primary focus on Japan."
         },
         {
-            "name": "genki",
-            "date": "01/01/2020",
-            "location": "Denmark",
-            "link": "http://someurl.com",
-            "description": "Some Danish Anime convention"
+            "name": "J-popcon",
+            "date": "27/04/2018",
+            "address": "DGI-byen",
+            "city": "Copenhagen",
+            "region":"Zealand",
+            "link": "https://j-popcon.dk/",
+            "img": "/#/src/assets/images/jpopcon.png",
+            "description": "J-Popcon is a convention by the organization J-Popkai, which is a non-profit organization. Our goal is to spread knowledge about Japanese pop culture. J-Popcon has existed as a convention since the year 2000."
         },
         {
-            "name": "jpopcon",
-            "date": "01/01/2025",
-            "location": "Denmark",
-            "link": "http://someotherurl.com",
-            "description": "Some other Danish Anime convention"
+            "name": "Comic Con Copenhagen",
+            "date": "05/05/2018",
+            "address": "Julius Thomsens Pl. 1, 1925 Frederiksberg C",
+            "city": "Copenhagen",
+            "region":"Zealand",
+            "link": "http://comicconcopenhagen.com",
+            "img": "/#/src/assets/images/comiccon.png",
+            "description": "Comic Con Copenhagen was successfully launched in 2016. Together with Comic Con Stockholm they form the Nordics’ largest pop culture events. It is the only show in Denmark that brings together such a broad scope of popular culture categories including; Movies, Gaming, Comics, Anime, Television, Gadgets, Clothing and Toys."
+        },
+        {
+            "name": "Koyocon",
+            "date": "10/11/2017",
+            "address": "Ydesvej 2",
+            "city": "Grenaa",
+            "region": "Jutland",
+            "link": "https://koyocon.dk/",
+            "img": "/#/src/assets/images/koyocon.png",
+            "description": "KōyōCon is a small convention, that is held in the middle of Jutland. KōyōCon started in November 2013, where we had 300 attended. Our attedees grew to around 600, and therefore we are going back to Grenå, where we started."
+        },
+        {
+            "name": "Hydracon",
+            "date": "31/08/2018",
+            "address": "Holingknuden 3",
+            "city": "Herning",
+            "region":"Jutland",
+            "img": "/#/src/assets/images/hydracon.png",
+            "link": "http://www.hydracon.org/",
+            "description": "HydraCon is a new Danish convention for: Warhammer, Magic the Gathering, alternative tabletop games, gaming tournaments, Indie game development exhibitions, cosplay, costume and prop workshops, a wide array of contests, tech-gadgets, comics, movies and much, much more."
+        },
+        {
+            "name": "Aicon",
+            "date": "01/01/2020",
+            "address": "Odense",
+            "city": "Odense",
+            "region":"Funen",
+            "link": "http://www.aij.dk/aicon/",
+            "img": "/#/src/assets/images/aicon.jpg",
+            "description": "Aicon does not aim to be the biggest. We will be the coziest, not the biggest. It should be possible to see all the places and meet every people that are attending the convention - even the shady friend from last year and the one who you falled in love with from many years ago."
         }
       ]
 }

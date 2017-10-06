@@ -1,0 +1,5 @@
+Implementations TODO:
+ - individual org/conv page (make a template and load the different json information)
+
+
+Questions:
