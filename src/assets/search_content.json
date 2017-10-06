@@ -2,6 +2,7 @@
     "conventions": [{
             "name": "Genki",
             "date": "01/01/2020",
+            "datesort": "2020/01/01",
             "address": "Farum Arena",
             "city": "Copenhagen",
             "region":"Zealand",
@@ -12,6 +13,7 @@
         {
             "name": "J-popcon",
             "date": "27/04/2018",
+            "datesort": "2018/04/27",
             "address": "DGI-byen",
             "city": "Copenhagen",
             "region":"Zealand",
@@ -22,6 +24,7 @@
         {
             "name": "Comic Con Copenhagen",
             "date": "05/05/2018",
+            "datesort": "2018/05/05",
             "address": "Julius Thomsens Pl. 1, 1925 Frederiksberg C",
             "city": "Copenhagen",
             "region":"Zealand",
@@ -32,6 +35,7 @@
         {
             "name": "Koyocon",
             "date": "10/11/2017",
+            "datesort": "2017/11/10",
             "address": "Ydesvej 2",
             "city": "Grenaa",
             "region": "Jutland",
@@ -42,6 +46,7 @@
         {
             "name": "Hydracon",
             "date": "31/08/2018",
+            "datesort": "2018/08/31",
             "address": "Holingknuden 3",
             "city": "Herning",
             "region":"Jutland",
@@ -52,6 +57,7 @@
         {
             "name": "Aicon",
             "date": "01/01/2020",
+            "datesort": "2020/01/01",
             "address": "Odense",
             "city": "Odense",
             "region":"Funen",
@@ -59,5 +65,17 @@
             "img": "/#/src/assets/images/aicon.jpg",
             "description": "Aicon does not aim to be the biggest. We will be the coziest, not the biggest. It should be possible to see all the places and meet every people that are attending the convention - even the shady friend from last year and the one who you falled in love with from many years ago."
         }
-      ]
+      ],
+      "organisations": [{
+          "name": "Aicon",
+          "date": "01/01/2020",
+          "datesort": "2020/01/01",
+          "address": "Odense",
+          "city": "Odense",
+          "region":"Funen",
+          "link": "http://www.aij.dk/aicon/",
+          "img": "/#/src/assets/images/aicon.jpg",
+          "description": "Aicon does not aim to be the biggest. We will be the coziest, not the biggest. It should be possible to see all the places and meet every people that are attending the convention - even the shady friend from last year and the one who you falled in love with from many years ago."
+      }
+    ]
 }
