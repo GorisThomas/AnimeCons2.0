@@ -2,7 +2,7 @@
 <div>
   <navigation></navigation>
   <div class="text-center col-md-12 eventbody">
-    <ConventionCard v-for="item in JsonData" :key="item.name" :img="item.img"
+    <ConventionCard v-for="item in JsonData.conventions" :key="item.name" :img="item.img"
      :name="item.name" :date="item.date" :address="item.address" :city="item.city"
      :region="item.region" :link="item.link" :description="item.description"
      :isEvent="true">
