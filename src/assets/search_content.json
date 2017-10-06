@@ -68,13 +68,11 @@
       ],
       "organisations": [{
           "name": "Aicon",
-          "date": "01/01/2020",
-          "datesort": "2020/01/01",
           "address": "Odense",
           "city": "Odense",
           "region":"Funen",
           "link": "http://www.aij.dk/aicon/",
-          "img": "/#/src/assets/images/aicon.jpg",
+          "img": "/#/sc/assets/images/aicon.jpg",
           "description": "Aicon does not aim to be the biggest. We will be the coziest, not the biggest. It should be possible to see all the places and meet every people that are attending the convention - even the shady friend from last year and the one who you falled in love with from many years ago."
       }
     ]
