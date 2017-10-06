@@ -1,3 +1,12 @@
+var webpack = require('webpack')
 module.exports = {
-  NODE_ENV: '"production"'
+  // ...
+  plugins: [
+    // ...
+    new webpack.DefinePlugin({
+      'process.env': {
+        NODE_ENV: '"production"'
+      }
+    })
+  ]
 }
