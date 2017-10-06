@@ -2,6 +2,7 @@
 <div>
   <navigation></navigation>
   <div class="text-center col-md-12 eventbody">
+    <h1>Conventions ordered by Date</h1>
     <ConventionCard v-for="item in JsonData" :key="item.name" :img="item.img"
      :name="item.name" :date="item.date" :address="item.address" :city="item.city"
      :region="item.region" :link="item.link" :description="item.description"
@@ -36,9 +37,11 @@
     methods: {
       sortedArray: function() {
         function compare(a, b) {
-          if (a.date < b.date)
+          var x = new Date(a.datesort);
+          var y = new Date(b.datesort);
+          if (x < y)
             return -1;
-          if (a.date > b.date)
+          if (x > y)
             return 1;
           return 0;
         }
