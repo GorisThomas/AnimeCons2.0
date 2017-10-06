@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <navigation></navigation>
     <div class="text-center col-md-12 eventbody">
       <ConventionCard v-for="item in JsonData.conventions" :name="item.name"
@@ -9,7 +8,6 @@
       </ConventionCard>
     </div>
     <foot></foot>
-
   </div>
 </template>
 
@@ -21,7 +19,7 @@
 
   export default {
     name: 'index',
-    data: function(){
+    data: function() {
       return {
         JsonData
       };
