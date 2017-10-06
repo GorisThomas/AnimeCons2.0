@@ -1,6 +1,6 @@
 <template>
   <div>
-    <navigation></navigation>
+    <navigation isMap="true"></navigation>
     <GoogleMap></GoogleMap>
     <foot></foot>
   </div>

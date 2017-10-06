@@ -1,7 +1,10 @@
 <template>
 <div>
-  <navigation></navigation>
+  <navigation isIndex="true"></navigation>
   <div class="text-center col-md-12 eventbody">
+    <h1>Welcome to Anime cons</h1>
+    <h2>Your quick overview of the danish anime conventions</h2>
+    <h3>Upcoming events</h3>
     <ConventionCard v-for="item in JsonData.conventions" :key="item.name" :img="item.img"
      :name="item.name" :date="item.date" :address="item.address" :city="item.city"
      :region="item.region" :link="item.link" :description="item.description"

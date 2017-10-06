@@ -1,6 +1,6 @@
 <template>
   <div>
-    <navigation></navigation>
+    <navigation isOrganisation="true"></navigation>
     <div class="text-center col-md-12 eventbody">
       <h1>Organisations ordered alphabetically</h1>
       <ConventionCard v-for="item in JsonData" :key="item.name" :img="item.img"

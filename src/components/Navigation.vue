@@ -14,15 +14,15 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-          <li class="active"><router-link to="/">Frontpage<span class="sr-only">(current)</span></router-link></li>
-          <li class="dropdown">
+          <li :class="{active: isIndex}"><router-link to="/">Frontpage<span class="sr-only">(current)</span></router-link></li>
+          <li class="dropdown" :class="{active: isOrganisation}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Organisations <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><router-link to="/organisations-location">Ordered by location</router-link></li>
               <li><router-link to="/organisations-alphabet">Ordered alphabetically</router-link></li>
             </ul>
           </li>
-          <li class="dropdown">
+          <li class="dropdown" :class="{active: isConvention}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Conventions<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><router-link to="/conventions-location">Ordered by location</router-link></li>
@@ -30,7 +30,7 @@
               <li><router-link to="/conventions-alphabet">Ordered alphabetically</router-link></li>
             </ul>
           </li>
-          <li class=""><router-link to="/map">Map<span class="sr-only">(current)</span></router-link></li>
+          <li :class="{active: isMap}"><router-link to="/map">Map<span class="sr-only">(current)</span></router-link></li>
 
       </ul>
 
@@ -62,6 +62,20 @@ export default {
   },
   components: {
     SearchBar
-  }
+  },
+  props: {
+    isIndex: {
+      default: false
+    },
+    isOrganisation: {
+      default: false
+    },
+    isConvention: {
+      default: false
+    },
+    isMap: {
+      default: false
+    }
+  },
 }
 </script>
