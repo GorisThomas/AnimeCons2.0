@@ -73,7 +73,25 @@
           "region":"Funen",
           "link": "http://www.aij.dk/aicon/",
           "img": "/#/sc/assets/images/aicon.jpg",
-          "description": "Aicon does not aim to be the biggest. We will be the coziest, not the biggest. It should be possible to see all the places and meet every people that are attending the convention - even the shady friend from last year and the one who you falled in love with from many years ago."
+          "description": "Aicon is on hiatus "
+      },
+      {
+        "name": "j-popkai",
+        "address": "Holingknuden 3",
+        "city": "Copenhagen",
+        "region":"Zealand",
+        "img": "/#/src/assets/images/hydracon.png",
+        "link": "http://www.j-popcon.dk/",
+        "description": "j-popkai is the organisation behind j-popcon"
+      },
+      {
+        "name": "The reactor",
+        "address": "Holingknuden 3",
+        "city": "Farum",
+        "region":"Zealand",
+        "img": "/#/src/assets/images/hydracon.png",
+        "link": "http://www.genki.dk/",
+        "description": "The organisation behind genki"
       }
     ]
 }
