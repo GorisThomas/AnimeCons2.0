@@ -21,6 +21,7 @@ require('./assets/bootstrap/css/bootstrap.min.css');
 require('../node_modules/jquery-editable-select/dist/jquery-editable-select.min.js');
 require('../node_modules/jquery-editable-select/dist/jquery-editable-select.min.css');
 
+
 //our own files
 require('./assets/javascript/search.js');
 require('./assets/javascript/map.js');

@@ -7,7 +7,7 @@ function initMap() {
  };
 
  // Display a map on the page
- map = new google.maps.Map(document.getElementById("map"), mapOptions);
+ map = new google.maps.Map(document.getElementById("google-map"), mapOptions);
  map.setTilt(45);
 
  // Multiple Markers
