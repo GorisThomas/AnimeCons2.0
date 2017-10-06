@@ -24,7 +24,7 @@
   Vue.use(VueGoogleMaps, {
     load: {
       key: 'AIzaSyBFGo6SefyZj7q3hVujTNYqlOIKId4xs-k',
-      v: 'OPTIONAL VERSION NUMBER',
+      v: '3.29',
       // libraries: 'places', //// If you need to use place input
     }
   });
