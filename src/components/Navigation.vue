@@ -38,10 +38,7 @@
       <ul class="nav navbar-nav navbar-right">
         <li class="navbar-form navbar-left">
           <div class="form-group">
-            <!-- This is made with https://github.com/indrimuska/jquery-editable-select -->
-            <select id="searchselect">
-              <option v-for="item in JsonData.conventions">{{item.name}}</option>
-            </select>
+            <SearchBar></SearchBar>
           </div>
         </li>
       </ul>
@@ -53,8 +50,8 @@
 </template>
 
 <script>
-
 import JsonData from '@/assets/search_content.json';
+import SearchBar from '@/components/SearchBar';
 
 export default {
   name: 'navigation',
@@ -62,7 +59,9 @@ export default {
     return {
       JsonData
     };
+  },
+  components: {
+    SearchBar
   }
-
 }
 </script>

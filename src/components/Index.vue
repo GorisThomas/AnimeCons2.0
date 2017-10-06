@@ -10,7 +10,6 @@
 
   </div>
 </template>
-
 <script>
   import Navigation from '@/components/Navigation';
   import ConventionCard from '@/components/ConventionCard';
