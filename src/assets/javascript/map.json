@@ -1,0 +1,9 @@
+{
+  "markers": [{
+            "position": {
+              "lat": 47.376332,
+              "lng": 8.547511
+            },
+            "infoText": "Marker 1"
+    }],
+}
