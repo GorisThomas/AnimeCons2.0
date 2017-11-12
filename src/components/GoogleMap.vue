@@ -23,7 +23,7 @@
 
   Vue.use(VueGoogleMaps, {
     load: {
-      key: 'AIzaSyBFGo6SefyZj7q3hVujTNYqlOIKId4xs-k',
+      key: 'AIzaSyD-T1aHDZQQHsmcRr41jylKFIP2IhB65SU',
       v: '3.29',
       // libraries: 'places', //// If you need to use place input
     }

@@ -37,7 +37,10 @@ export default {
     'region',
     'link',
     'description',
-    'img'
+    'img',
+    'day',
+    'month',
+    'year'
   ]
 }
 </script>

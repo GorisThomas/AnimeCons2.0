@@ -64,10 +64,32 @@
             "link": "http://www.aij.dk/aicon/",
             "img": "/#/src/assets/images/aicon.jpg",
             "description": "Aicon does not aim to be the biggest. We will be the coziest, not the biggest. It should be possible to see all the places and meet every people that are attending the convention - even the shady friend from last year and the one who you falled in love with from many years ago."
+        },
+        {
+            "name": "Shiroi-con",
+            "date": "On hold",
+            "datesort": "2020/01/01",
+            "address": "Storegade 19, 4550 Asnæs",
+            "city": "Asnæs",
+            "region":"Zealand",
+            "link": "https://www.facebook.com/groups/798196350216719/",
+            "img": "/#/src/assets/images/shiroi-con.jpg",
+            "description": "Shiroi Con dec. 14 og staging for the future Shiroi Cons has been getting monetary help from the project Go and EU, Ministeriet for By, Bolig og Landdistrikter and Region Sjælland. It is a winter-con."
+        },
+        {
+            "name": "Shiroi-con",
+            "date": "On hold",
+            "datesort": "2020/01/01",
+            "address": "Storegade 19, 4550 Asnæs",
+            "city": "Asnæs",
+            "region":"Zealand",
+            "link": "https://www.facebook.com/groups/798196350216719/",
+            "img": "/#/src/assets/images/shiroi-con.jpg",
+            "description": "Shiroi Con dec. 14 og staging for the future Shiroi Cons has been getting monetary help from the project Go and EU, Ministeriet for By, Bolig og Landdistrikter and Region Sjælland. It is a winter-con."
         }
       ],
       "organisations": [{
-          "name": "Aicon",
+          "name": "Ai Japan",
           "address": "Odense",
           "city": "Odense",
           "region":"Funen",
